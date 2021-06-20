@@ -1,0 +1,228 @@
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ \usepackage{fontawesome}
+ \usepackage{ragged2e}
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Aditi Goyal}{ \urlstyle{same}\href{}{Junior Year  }|\href{}{ Electrical Engineering  }| \href{}{IIT Jodhpur}\\
+\href{mailto:goyal.16@iitj.ac.in}{goyal.16@iitj.ac.in} | (+91) 7045330834}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\vspace{1mm}
+\subsection{IIT JODHPUR}
+\descript{Btech in Electrical Engineering}
+\descript{Department Rank - 2}
+\location{Expected 2023}
+\location{ Cum. GPA: 8.79 / 10} (uptil 4th Semester)
+\sectionsep
+
+\subsection{Vidya Niketan J.College}
+\descript{Class 12 | HSC}
+\location{2019 | Mumbai,India}
+\descript{Percentage: 89.54\%}
+\sectionsep
+
+\subsection{Vissanji Academy}
+\descript{Class 10 | ICSE}
+\location{ 2017 | Mumbai. India}
+\descript{Percentage: 96.8\%(agg.)}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\subsection{Languages}
+
+\textbullet{}C /C++\textbullet{} Python \textbullet{} HTML/CSS \\\textbullet{} Dart \textbullet{} Verilog \textbullet{}Javascript\\
+\location{Machine Learning:}
+\textbullet{} sklearn\textbullet{}pytorch\textbullet{}Tensorflow\\
+\sectionsep
+\subsection{Development}
+ \textbullet{}Bootstrap \textbullet{}Django\\
+ \textbullet{}Flutter \textbullet{}Firebase
+ \textbullet{}Git\\\textbullet{} GraphQL\textbullet{}AdobeXD\\
+\sectionsep
+\subsection{Others}
+ \textbullet{}Competitive Programming \\\textbullet{}Photoshop\textbullet{} SolidWorks\\
+ \textbullet{}Debating\textbullet{}Public Speaking\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/gaditi123}{\bf gaditi123 }\href{https://github.com/gaditi123}{\faExternalLink} \\
+LinkedIn://  \href{https://www.linkedin.com/in/aditi-goyal-21b834196/}{\bf Aditi Goyal }\href{https://www.linkedin.com/in/aditi-goyal-21b834196/}{\faExternalLink} \\
+%Codeforces://  \href{https://codeforces.com/profile/DuhAditi}{\bf DuhAditi} \\
+Codechef://  \href{https://www.codechef.com/users/duhaditi}{\bf duhaditi }\href{https://www.codechef.com/users/duhaditi}{\faExternalLink} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Probability, Statistics and Stoch. Process \\
+Linear Algebra and Calculus \\
+Intro to Computer Science \\
+Data Structures and Algorithm\\
+Pattern Recognition and Machine Learning\\
+Intro to Quantum Information\\
+
+\sectionsep
+
+\subsection{MOOC}
+Responsive Web Development\\
+Django \\
+Dart and Flutter \\
+\sectionsep 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+\vspace{1mm}
+\runsubsection{StopStalk App}
+\descript{| Flutter Developer}
+\location{October 2020 – April 2021 | Flutter, Firebase | Github \href{https://github.com/devlup-labs/stopstalk-android}{\faExternalLink} |  \textbf{Playstore \href{https://play.google.com/store/apps/details?id=com.Stopstalk.android}{\faExternalLink}}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+{\justifying
+\item Collaborated with popular open source project StopStalk in a team of 4 to build a versatile mobile app with a minimalist and intuitive UI/UX.
+\item \textbf{Executed core functionalities} like: graphs, form-based components, animated lists, login along with \textbf{search and sort} features reaching 150+ users in 3 days.
+\item Implemented real time JSON updates,\textbf{ dynamic updates} like add/delete friends or ToDo, reusable components and was the \textbf{top contributor} in the project.
+\par}
+\end{tightemize}
+\sectionsep
+
+\sectionsep
+\section{Projects}
+\vspace{1mm}
+\runsubsection{Lokalite}
+\descript{| Junior Flutter Developer}
+\location{May 2020 – June 2020 |\textbf{ Flutter, Django }| \href{https://gitlab.com/lokalite/app}{Gitlab }\href{https://gitlab.com/lokalite/app}{\bf \faExternalLink} }
+\begin{tightemize}
+{\justifying
+\item Developed a comprehensive restaurant listing app with \textbf{geolocation based restaurant discovery} service and social features like chatting and search.
+\item Contributed functionalities like: submitting reviews and images, user profile, connecting to google maps and separate user and merchant interface UI/UX.
+\par}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Souvenirs IITJ 
+\href{https://devlup-labs.github.io/souvenirs_iitj/}}{\bf \faExternalLink}
+\descript{| Design and Arts Society ,IIT Jodhpur website }
+\location{April 2020 - May 2020 |\textbf{ Bootstrap, Javascript, GoogleAppScripts } | \href{https://github.com/devlup-labs/souvenirs_iitj}Github \href{https://github.com/devlup-labs/souvenirs_iitj}{\bf \faExternalLink}}
+\begin{tightemize}
+{\justifying
+
+\item Portal to publicly display photos of events held in the institute \textbf{without any dedicated server space}, completely based on using google drive for storage purposes.
+
+\item Devised a logic to \textbf{automate image URLs} without hard-coding any, using \textbf{GAS functionalities} and improved the overall front end in a team of 4.
+
+\par}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Pattern Recognition and Machine Learning}
+\location{}
+\begin{tightemize}
+{\justifying
+\item Worked extensively on all ML classifiers like regression, decision tress, boosting, clustering and deep neural networks using Pytorch and Tensorflow.
+
+\item Designed and developed a \textbf{drug review sentiment analysis NLP} project with classifier combination of ML classifiers and deep neural networks, performing \textbf{feature engineering, predictive analysis} and simulation development.\href{https://github.com/harsh-ux/Sentiment-Analysis-of-Drug-Reviews}{\textbf{Github }}\href{https://github.com/harsh-ux/Sentiment-Analysis-of-Drug-Reviews}{\faExternalLink}
+
+\item Improved \textbf{face mask detection} using several optimised CNN models. \href{https://github.com/gaditi123/mask_detection}{\textbf{Github }}\href{https://github.com/gaditi123/mask_detection}{\faExternalLink}
+
+\par}
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\begin{tabular}{rll}
+
+2020        & \textbf{Department Rank 2} of Electrical Branch till 4th semester\\
+2020 		 & \textbf{Research paper} documenting Covid-19's impact on WASH and secured\\
+ &\textbf{ $2^{nd}$ place} with \textbf{cash prize} in an institute challenge. \href{https://iitj.ac.in/uploaded_docs/summer\%20challenge_revised_03112020.pdf}{\bf \faExternalLink}\\
+2019	     & \textbf{JEE 2019} - Top 0.8 percentile of 1.3 million candidates\\
+2019	     & Top 1\% of Maharashtra State Board Class 12  Exam\\
+\end{tabular}
+\sectionsep
+
+\section{Position of Responsibility} 
+\begin{tabular}{rll}
+2020 		 & Literature Society |\custombold \textbf{ JOINT SECRETARY}\\
+2020        & Core Member: \href{https://github.com/devlup-labs}{\bf \textbf{Devlup Labs}: OpenSource Dev Group}\\
+
+\end{tabular}
+\sectionsep
+
+\section{Extracurricular} 
+\vspace{\topsep}
+\begin{tightemize}
+{\justifying
+\item \textbf{Parliamentary Debate} at the InterIIT Cultural Meet, IIT Bombay, December'19.
+\item Received\textbf{ Best Delegate Award} in India-International MUN Conference.
+\item \textbf{Hosted} opening ceremony of Spandan(Inter Hostel Fest) and Kavi Samelan of renowned Jodhpur poets besides managing several club activities.
+
+\par}
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
